@@ -150,3 +150,10 @@ footer .small{font-size:13px;color:#8fa2c9;margin-top:10px;max-width:60ch}
   .doc .tbl{overflow:visible}.doc table{min-width:0}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+
+/* guide */
+.toc{display:flex;flex-wrap:wrap;gap:6px 14px;background:var(--blue-soft);border-radius:12px;padding:12px 16px;margin-bottom:8px;font-size:15px}
+.toc b{width:100%;color:var(--navy)}
+.toc a{text-decoration:none;font-weight:500}
+.note-box{background:var(--gold-soft);border-radius:10px;padding:10px 14px;font-size:15px}
+.guide ol li,.guide ul li{margin:5px 0}
